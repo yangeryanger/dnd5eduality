@@ -17,6 +17,14 @@
       "flags": {}
     }
   ],
+  "relationships": {
+  "requires": [
+    {
+      "id": "dice-so-nice",
+      "type": "module"
+    }
+  ]
+},
   "esmodules": [
     "dnd5e.mjs"
   ],
