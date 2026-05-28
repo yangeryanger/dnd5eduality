@@ -150,20 +150,20 @@
       }
     },
     "RegionBehavior": {
-      "dnd5e.difficultTerrain": {},
-      "dnd5e.rotateArea": {}
+      "dnd5eduality.difficultTerrain": {},
+      "dnd5eduality.rotateArea": {}
     }
   },
   "packs": [
     {
       "name": "heroes",
       "label": "Starter Heroes",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/heroes",
       "type": "Actor",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.1",
           "types": ["character"]
         }
@@ -172,12 +172,12 @@
     {
       "name": "monsters",
       "label": "Monsters (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/monsters",
       "type": "Actor",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.1",
           "types": ["npc"]
         }
@@ -186,12 +186,12 @@
     {
       "name": "items",
       "label": "Items (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/items",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.1",
           "types": ["weapon", "equipment", "consumable", "tool", "loot", "feat", "container"]
         }
@@ -200,12 +200,12 @@
     {
       "name": "tradegoods",
       "label": "Trade Goods (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/tradegoods",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.1",
           "types": ["loot"]
         }
@@ -214,12 +214,12 @@
     {
       "name": "spells",
       "label": "Spells (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/spells",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sorting": "m",
           "sourceBook": "SRD 5.1",
           "types": ["spell"]
@@ -229,12 +229,12 @@
     {
       "name": "backgrounds",
       "label": "Backgrounds (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/backgrounds",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.1",
           "types": ["background", "feat"]
         }
@@ -243,12 +243,12 @@
     {
       "name": "classes",
       "label": "Classes (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/classes",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.1",
           "types": ["class"]
         }
@@ -257,12 +257,12 @@
     {
       "name": "subclasses",
       "label": "Subclasses (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/subclasses",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.1",
           "types": ["subclass"]
         }
@@ -271,12 +271,12 @@
     {
       "name": "classfeatures",
       "label": "Class & Subclass Features (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/classfeatures",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.1",
           "types": ["feat", "weapon"]
         }
@@ -285,12 +285,12 @@
     {
       "name": "races",
       "label": "Races (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/races",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.1",
           "types": ["race", "feat"]
         }
@@ -299,12 +299,12 @@
     {
       "name": "monsterfeatures",
       "label": "Monster Features (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/monsterfeatures",
       "type": "Item",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.1",
           "types": ["feat", "weapon"]
         }
@@ -313,12 +313,12 @@
     {
       "name": "rules",
       "label": "Rules (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/rules",
       "type": "JournalEntry",
       "private": false,
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "display": "table-of-contents"
         }
       }
@@ -326,7 +326,7 @@
     {
       "name": "tables",
       "label": "Tables (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "path": "packs/tables",
       "type": "RollTable",
       "private": false,
@@ -341,7 +341,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "flags": {
         "display": "table-of-contents"
       }
@@ -355,9 +355,9 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.2",
           "types": ["class", "subclass", "feat"]
         }
@@ -372,9 +372,9 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.2",
           "types": ["race", "background", "feat"]
         }
@@ -389,9 +389,9 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.2",
           "types": ["feat"]
         }
@@ -406,9 +406,9 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sorting": "m",
           "sourceBook": "SRD 5.2",
           "types": ["spell"]
@@ -424,9 +424,9 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.2",
           "types": ["weapon", "equipment", "consumable", "tool", "loot", "feat", "container"]
         }
@@ -441,7 +441,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "dnd5eduality"
     },
     {
       "name": "actors24",
@@ -452,9 +452,9 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sorting": "m",
           "sourceBook": "SRD 5.2"
         }
@@ -468,9 +468,9 @@
       "ownership": {
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
+      "system": "dnd5eduality",
       "flags": {
-        "dnd5e": {
+        "dnd5eduality": {
           "sourceBook": "SRD 5.2",
           "types": ["feat", "weapon"]
         }
@@ -554,8 +554,8 @@
     },
     {
       "type": "setup",
-      "url": "systems/dnd5e/ui/official/dnd5e-repo.jpg",
-      "thumbnail": "systems/dnd5e/ui/official/dnd5e-thumbnail.jpg"
+      "url": "systems/dnd5eduality/ui/official/dnd5e-repo.jpg",
+      "thumbnail": "systems/dnd5eduality/ui/official/dnd5e-thumbnail.jpg"
     }
   ],
   "socket": true,
@@ -564,15 +564,15 @@
     "units": "ft"
   },
   "primaryTokenAttribute": "attributes.hp",
-  "background": "systems/dnd5e/ui/official/dnd5e-background.webp",
+  "background": "systems/dnd5eduality/ui/official/dnd5e-background.webp",
   "flags": {
     "compendiumArtMappings": {
-      "dnd5e": {
-        "mapping": "systems/dnd5e/json/fa-token-mapping.json",
+      "dnd5eduality": {
+        "mapping": "systems/dnd5eduality/json/fa-token-mapping.json",
         "credit": "<em>Token artwork by <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.</em>"
       }
     },
-    "dnd5e": {
+    "dnd5eduality": {
       "sourceBooks": {
         "SRD 5.1": "SOURCE.BOOK.SRD51",
         "SRD 5.2": "SOURCE.BOOK.SRD52"
