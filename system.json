@@ -1,18 +1,18 @@
 {
-  "id": "dnd5e",
-  "title": "Dungeons & Dragons Fifth Edition",
-  "description": "A system for playing the fifth edition of the world's most popular role-playing game in the Foundry Virtual Tabletop environment.",
-  "version": "5.3.3",
+  "id": "dnd5eduality",
+  "title": "Dungeons & Dragons Fifth Edition with Daggerheart Duality mod",
+  "description": "A system for playing the fifth edition of the world's most popular role-playing game in the Foundry Virtual Tabletop environment, modified with Daggerheart Duality die mods.",
+  "version": "0.1beta",
   "compatibility": {
     "minimum": "13.347",
     "verified": "14"
   },
-  "url": "https://github.com/foundryvtt/dnd5e/",
-  "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-  "download": "https://github.com/foundryvtt/dnd5e/releases/download/release-5.3.3/dnd5e-release-5.3.3.zip",
+  "url": "https://github.com/yangeryanger/dnd5eduality/",
+  "manifest": "https://raw.githubusercontent.com/yangeryanger/dnd5eduality/master/system.json",
+  "download": "https://github.com/yangeryanger/dnd5eduality/releases/download/release-0.1beta/dnd5eduality-release-0.1beta.zip",
   "authors": [
     {
-      "name": "Atropos",
+      "name": "yanger",
       "url": "https://foundryvtt.com",
       "flags": {}
     }
